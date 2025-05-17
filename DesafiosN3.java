@@ -63,6 +63,8 @@ class Ex44 {
     }
 }
 
+import java.util.Arrays;
+
 class Ex45 {
     public static void main(String[] args) {
         int[] a = {1, 2, 3};
@@ -73,6 +75,8 @@ class Ex45 {
         System.out.println("Arrays são iguais? " + iguais);
     }
 }
+
+import java.util.Arrays;
 
 class Ex46 {
     public static void main(String[] args) {
