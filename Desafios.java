@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Ex01 {
     public static void main(String[] args) {
         System.out.println("Olá, Mundo!");
@@ -21,6 +19,8 @@ class Ex02 {
     }
 }
 
+import java.util.Scanner;
+
 class Ex03 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -35,6 +35,8 @@ class Ex03 {
         }
     }
 }
+
+import java.util.Scanner;
 
 class Ex04 {
     public static void main(String[] args) {
@@ -52,6 +54,8 @@ class Ex04 {
     }
 }
 
+import java.util.Scanner;
+
 class Ex05 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -63,6 +67,8 @@ class Ex05 {
         System.out.printf("Temperatura em Fahrenheit: %.2f%n", fahrenheit);
     }
 }
+
+import java.util.Scanner;
 
 class Ex06 {
     public static void main(String[] args) {
@@ -84,6 +90,8 @@ class Ex06 {
     }
 }
 
+import java.util.Scanner;
+
 class Ex07 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -96,6 +104,8 @@ class Ex07 {
         }
     }
 }
+
+import java.util.Scanner;
 
 class Ex08 {
     public static void main(String[] args) {
@@ -111,6 +121,8 @@ class Ex08 {
         System.out.printf("Área do triângulo: %.2f%n", area);
     }
 }
+
+import java.util.Scanner;
 
 class Ex09 {
     public static void main(String[] args) {
@@ -129,6 +141,8 @@ class Ex09 {
     }
 }
 
+import java.util.Scanner;
+
 class Ex10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -145,6 +159,8 @@ class Ex10 {
     }
 }
 
+import java.util.Scanner;
+
 class Ex11 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -157,6 +173,8 @@ class Ex11 {
         System.out.println("String invertida: " + invertida);
     }
 }
+
+import java.util.Scanner;
 
 class Ex12 {
     public static void main(String[] args) {
@@ -186,6 +204,8 @@ class Ex12 {
     }
 }
 
+import java.util.Scanner;
+
 class Ex13 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -198,6 +218,8 @@ class Ex13 {
         System.out.println("Número de dígitos: " + digitos);
     }
 }
+
+import java.util.Scanner;
 
 class Ex14 {
     public static void main(String[] args) {
@@ -213,6 +235,8 @@ class Ex14 {
         }
     }
 }
+
+import java.util.Scanner;
 
 class Ex15 {
     public static void main(String[] args) {
@@ -245,6 +269,8 @@ class Ex16 {
     }
 }
 
+import java.util.Scanner;
+
 class Ex17 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -258,6 +284,8 @@ class Ex17 {
         System.out.println(horas + " hora(s) e " + minutos + " minuto(s)");
     }
 }
+
+import java.util.Scanner;
 
 class Ex18 {
     public static void main(String[] args) {
@@ -285,6 +313,8 @@ class Ex18 {
     }
 }
 
+import java.util.Scanner;
+
 class Ex19 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -304,6 +334,8 @@ class Ex19 {
         System.out.println("B = " + b);
     }
 }
+
+import java.util.Scanner;
 
 class Ex20 {
     public static void main(String[] args) {
