@@ -1,4 +1,4 @@
-Nível 1 – Iniciante (1–20): Conceitos básicos
+1️⃣ Nível 1 – Iniciante (1–20): Conceitos básicos
 Imprima "Olá, Mundo!".
 
 Some dois números inteiros.
@@ -39,7 +39,7 @@ Troque os valores de duas variáveis.
 
 Calcule a soma dos números de 1 a N.
 
-Nível 2 – Controle de Fluxo e Laços (21–40)
+2️⃣ Nível 2 – Controle de Fluxo e Laços (21–40)
 Faça uma calculadora simples (+, -, *, /).
 
 Leia vários números até que o usuário digite 0.
@@ -80,7 +80,7 @@ Calcule o tempo de viagem dado distância e velocidade.
 
 Simule um semáforo (usando switch ou enum).
 
-Nível 3 – Arrays e Matrizes (41–60)
+3️⃣ Nível 3 – Arrays e Matrizes (41–60)
 Leia e imprima um array de 10 inteiros.
 
 Some todos os elementos de um array.
@@ -121,7 +121,7 @@ Implemente uma matriz transposta.
 
 Crie um Sudoku simples (verificação de regras).
 
-Nível 4 – Orientação a Objetos (61–80)
+4️⃣ Nível 4 – Orientação a Objetos (61–80)
 Crie uma classe Pessoa com nome e idade.
 
 Adicione métodos falar() e aniversario() à classe Pessoa.
@@ -162,7 +162,7 @@ Implemente toString e equals nas suas classes.
 
 Crie uma classe com atributos validados (ex: CPF, idade mínima).
 
-Nível 5 – Coleções, Arquivos, Exceções (81–90)
+5️⃣ Nível 5 – Coleções, Arquivos, Exceções (81–90)
 Leia uma lista de nomes e ordene alfabeticamente (ArrayList).
 
 Armazene pares chave-valor com HashMap.
@@ -183,7 +183,7 @@ Faça a leitura de um arquivo CSV.
 
 Use HashSet para eliminar duplicatas.
 
-Nível 6 – Avançado (91–100)
+6️⃣ Nível 6 – Avançado (91–100)
 Implemente um sistema de login com senha criptografada.
 
 Crie uma API REST com Java e Spring Boot.
