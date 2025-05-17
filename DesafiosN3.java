@@ -284,3 +284,163 @@ class Ex55 {
         }
     }
 }
+
+import java.util.Random;
+
+class Ex56 {
+    public static void main(String[] args) {
+        int[][] matriz = new int[3][3];
+        Random rand = new Random();
+
+        System.out.println("Matriz com números aleatórios:");
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                matriz[i][j] = rand.nextInt(100); // números de 0 a 99
+                System.out.print(matriz[i][j] + "\t");
+            }
+            System.out.println();
+        }
+    }
+}
+
+class Ex57 {
+    public static void main(String[] args) {
+        int[][] matriz = {
+            {1, 2, 3},
+            {4, 5, 6},
+            {7, 8, 9}
+        };
+
+        System.out.println("Diagonal principal:");
+        for (int i = 0; i < matriz.length; i++) {
+            System.out.print(matriz[i][i] + " ");
+        }
+    }
+}
+
+import java.util.Scanner;
+
+class Ex58 {
+    public static void main(String[] args) {
+        char[][] tabuleiro = {
+            {' ', ' ', ' '},
+            {' ', ' ', ' '},
+            {' ', ' ', ' '}
+        };
+        Scanner sc = new Scanner(System.in);
+        char jogador = 'X';
+        boolean venceu = false;
+
+        for (int jogada = 0; jogada < 9 && !venceu; jogada++) {
+            System.out.println("Jogador " + jogador);
+            System.out.print("Linha (0-2): ");
+            int linha = sc.nextInt();
+            System.out.print("Coluna (0-2): ");
+            int coluna = sc.nextInt();
+
+            if (tabuleiro[linha][coluna] == ' ') {
+                tabuleiro[linha][coluna] = jogador;
+                venceu = verificarVitoria(tabuleiro, jogador);
+                jogador = (jogador == 'X') ? 'O' : 'X';
+            } else {
+                System.out.println("Posição ocupada. Tente novamente.");
+                jogada--;
+            }
+
+            imprimirTabuleiro(tabuleiro);
+        }
+
+        if (venceu) {
+            System.out.println("Jogador " + (jogador == 'X' ? 'O' : 'X') + " venceu!");
+        } else {
+            System.out.println("Empate!");
+        }
+    }
+static void imprimirTabuleiro(char[][] tab) {
+        for (char[] linha : tab) {
+            for (char c : linha) {
+                System.out.print("[" + c + "]");
+            }
+            System.out.println();
+        }
+    }
+
+    static boolean verificarVitoria(char[][] t, char j) {
+        for (int i = 0; i < 3; i++) {
+            if ((t[i][0] == j && t[i][1] == j && t[i][2] == j) || // linha
+                (t[0][i] == j && t[1][i] == j && t[2][i] == j))   // coluna
+                return true;
+        }
+        return (t[0][0] == j && t[1][1] == j && t[2][2] == j) || (t[0][2] == j && t[1][1] == j && t[2][0] == j);
+    }
+}
+
+class Ex59 {
+    public static void main(String[] args) {
+        int[][] matriz = {
+            {1, 2, 3},
+            {4, 5, 6}
+        };
+        int linhas = matriz.length;
+        int colunas = matriz[0].length;
+
+        int[][] transposta = new int[colunas][linhas];
+
+        for (int i = 0; i < linhas; i++) {
+            for (int j = 0; j < colunas; j++) {
+                transposta[j][i] = matriz[i][j];
+            }
+        }
+
+        System.out.println("Matriz transposta:");
+        for (int[] linha : transposta) {
+            for (int val : linha) {
+                System.out.print(val + " ");
+            }
+            System.out.println();
+        }
+    }
+}
+
+class Ex60 {
+    public static void main(String[] args) {
+        int[][] sudoku = {
+            {5, 3, 4, 6, 7, 8, 9, 1, 2},
+            {6, 7, 2, 1, 9, 5, 3, 4, 8},
+            {1, 9, 8, 3, 4, 2, 5, 6, 7},
+            {8, 5, 9, 7, 6, 1, 4, 2, 3},
+            {4, 2, 6, 8, 5, 3, 7, 9, 1},
+            {7, 1, 3, 9, 2, 4, 8, 5, 6},
+            {9, 6, 1, 5, 3, 7, 2, 8, 4},
+            {2, 8, 7, 4, 1, 9, 6, 3, 5},
+            {3, 4, 5, 2, 8, 6, 1, 7, 9}
+        };
+
+        System.out.println("Sudoku é válido? " + verificarSudoku(sudoku));
+    }
+
+    static boolean verificarSudoku(int[][] grid) {
+        for (int i = 0; i < 9; i++) {
+            boolean[] linha = new boolean[9];
+            boolean[] coluna = new boolean[9];
+            boolean[] bloco = new boolean[9];
+
+            for (int j = 0; j < 9; j++) {
+                int l = grid[i][j] - 1;
+                int c = grid[j][i] - 1;
+                int bi = 3 * (i / 3) + j / 3;
+                int bj = 3 * (i % 3) + j % 3;
+                int b = grid[bi][bj] - 1;
+
+                if (linha[l]) return false;
+                if (coluna[c]) return false;
+                if (bloco[b]) return false;
+
+                linha[l] = true;
+                coluna[c] = true;
+                bloco[b] = true;
+            }
+        }
+        return true;
+    }
+}
