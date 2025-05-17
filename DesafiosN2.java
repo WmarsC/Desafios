@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Random;
 
 public class Ex21 {
     public static void main(String[] args) {
@@ -46,6 +45,8 @@ public class Ex21 {
     }
 }
 
+import java.util.Scanner;
+
 class Ex22 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -75,6 +76,8 @@ class Ex23 {
     }
 }
 
+import java.util.Scanner;
+
 class Ex24 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -91,6 +94,8 @@ class Ex24 {
         }
     }
 }
+
+import java.util.Scanner;
 
 class Ex25 {
     public static void main(String[] args) {
@@ -123,6 +128,9 @@ class Ex25 {
     }
 }
 
+import java.util.Scanner;
+import java.util.Random;
+
 class Ex26 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -150,6 +158,8 @@ class Ex26 {
     }
 }
 
+import java.util.Scanner;
+
 class Ex27 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -171,6 +181,8 @@ class Ex27 {
         System.out.println("O maior número é: " + maior);
     }
 }
+
+import java.util.Scanner;
 
 class Ex28 {
     public static void main(String[] args) {
@@ -197,6 +209,8 @@ class Ex28 {
     }
 }
 
+import java.util.Scanner;
+
 class Ex29 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -218,6 +232,8 @@ class Ex29 {
     }
 }
 
+import java.util.Scanner;
+
 class Ex30 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -230,6 +246,8 @@ class Ex30 {
         System.out.println("Representação binária: " + binario);
     }
 }
+
+import java.util.Scanner;
 
 class Ex31 {
     public static int mdc(int a, int b) {
@@ -250,6 +268,8 @@ class Ex31 {
         System.out.println("MDC: " + mdc(x, y));
     }
 }
+
+import java.util.Scanner;
 
 class Ex32 {
     public static int mdc(int a, int b) {
@@ -275,6 +295,8 @@ class Ex32 {
     }
 }
 
+import java.util.Scanner;
+
 class Ex33 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -290,6 +312,8 @@ class Ex33 {
         }
     }
 }
+
+import java.util.Scanner;
 
 class Ex34 {
     public static void main(String[] args) {
@@ -308,6 +332,8 @@ class Ex34 {
         }
     }
 }
+
+import java.util.Scanner;
 
 class Ex35 {
     public static void main(String[] args) {
@@ -334,6 +360,8 @@ class Ex35 {
     }
 }
 
+import java.util.Scanner;
+
 class Ex36 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -356,6 +384,8 @@ class Ex36 {
     }
 }
 
+import java.util.Scanner;
+
 class Ex37 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -377,6 +407,8 @@ class Ex37 {
         }
     }
 }
+
+import java.util.Scanner;
 
 class Ex38 {
     public static boolean valida(String s) {
@@ -403,6 +435,8 @@ class Ex38 {
     }
 }
 
+import java.util.Scanner;
+
 class Ex39 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -420,6 +454,8 @@ class Ex39 {
         System.out.println("Tempo estimado de viagem: " + horas + "h " + minutos + "min.");
     }
 }
+
+import java.util.Scanner;
 
 class Ex40 {
     enum Cor {VERDE, AMARELO, VERMELHO}
