@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-public class OlaMundo {
+public class Ex01 {
     public static void main(String[] args) {
         System.out.println("Olá, Mundo!");
     }
 }
 
-class SomaDoisNumeros {
+class Ex02 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -21,7 +21,7 @@ class SomaDoisNumeros {
     }
 }
 
-class ParOuImpar {
+class Ex03 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -36,7 +36,7 @@ class ParOuImpar {
     }
 }
 
-class MediaNotas {
+class Ex04 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -52,7 +52,7 @@ class MediaNotas {
     }
 }
 
-class CelsiusParaFahrenheit {
+class Ex05 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -64,7 +64,7 @@ class CelsiusParaFahrenheit {
     }
 }
 
-class MaiorDeDois {
+class Ex06 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -84,7 +84,7 @@ class MaiorDeDois {
     }
 }
 
-class Tabuada {
+class Ex07 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -97,7 +97,7 @@ class Tabuada {
     }
 }
 
-class AreaTriangulo {
+class Ex08 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -112,7 +112,7 @@ class AreaTriangulo {
     }
 }
 
-class PositivoNegativoZero {
+class Ex09 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -129,7 +129,7 @@ class PositivoNegativoZero {
     }
 }
 
-class Fatorial {
+class Ex10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -145,7 +145,7 @@ class Fatorial {
     }
 }
 
-class InverterString {
+class Ex11 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -158,7 +158,7 @@ class InverterString {
     }
 }
 
-class NumeroPrimo {
+class Ex12 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -186,7 +186,7 @@ class NumeroPrimo {
     }
 }
 
-class ContarDigitos {
+class Ex13 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -199,7 +199,7 @@ class ContarDigitos {
     }
 }
 
-class Maioridade {
+class Ex14 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -214,7 +214,7 @@ class Maioridade {
     }
 }
 
-class AnoBissexto {
+class Ex15 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -231,7 +231,7 @@ class AnoBissexto {
     }
 }
 
-class Fibonacci {
+class Ex16 {
     public static void main(String[] args) {
         int a = 0, b = 1;
 
@@ -245,7 +245,7 @@ class Fibonacci {
     }
 }
 
-class MinutosParaHoras {
+class Ex17 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -259,7 +259,7 @@ class MinutosParaHoras {
     }
 }
 
-class CalculoIMC {
+class Ex18 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -285,7 +285,7 @@ class CalculoIMC {
     }
 }
 
-class TrocaVariaveis {
+class Ex19 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -305,7 +305,7 @@ class TrocaVariaveis {
     }
 }
 
-class Soma1aN {
+class Ex20 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
