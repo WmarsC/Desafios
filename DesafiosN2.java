@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
-public class CalculadoraSimples {
+public class Ex21 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -46,7 +46,7 @@ public class CalculadoraSimples {
     }
 }
 
-class SomaAteZero {
+class Ex22 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int numero, soma = 0;
@@ -61,7 +61,7 @@ class SomaAteZero {
     }
 }
 
-class ParesDe1a100 {
+class Ex23 {
     public static void main(String[] args) {
         int contador = 0;
 
@@ -75,7 +75,7 @@ class ParesDe1a100 {
     }
 }
 
-class Palindromo {
+class Ex24 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -92,7 +92,7 @@ class Palindromo {
     }
 }
 
-class MenuInterativo {
+class Ex25 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int opcao;
@@ -123,7 +123,7 @@ class MenuInterativo {
     }
 }
 
-class JogoAdivinhacao {
+class Ex26 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Random rand = new Random();
@@ -150,7 +150,7 @@ class JogoAdivinhacao {
     }
 }
 
-class MaiorNumero {
+class Ex27 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -172,7 +172,7 @@ class MaiorNumero {
     }
 }
 
-class MediaNotas {
+class Ex28 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int contador = 0;
@@ -197,7 +197,7 @@ class MediaNotas {
     }
 }
 
-class PiramideAsteriscos {
+class Ex29 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -218,7 +218,7 @@ class PiramideAsteriscos {
     }
 }
 
-class DecimalParaBinario {
+class Ex30 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -231,7 +231,7 @@ class DecimalParaBinario {
     }
 }
 
-class CalculoMDC {
+class Ex31 {
     public static int mdc(int a, int b) {
         while (b != 0) {
             int resto = a % b;
@@ -251,7 +251,7 @@ class CalculoMDC {
     }
 }
 
-class CalculoMMC {
+class Ex32 {
     public static int mdc(int a, int b) {
         while (b != 0) {
             int resto = a % b;
@@ -275,7 +275,7 @@ class CalculoMMC {
     }
 }
 
-class QuadradoAsteriscos {
+class Ex33 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -291,7 +291,7 @@ class QuadradoAsteriscos {
     }
 }
 
-class AprovacaoEmprestimo {
+class Ex34 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -309,7 +309,7 @@ class AprovacaoEmprestimo {
     }
 }
 
-class OrdenarTresNumeros {
+class Ex35 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] numeros = new int[3];
@@ -334,7 +334,7 @@ class OrdenarTresNumeros {
     }
 }
 
-class CaixaEletronico {
+class Ex36 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Digite o valor para saque (múltiplo de 10): R$ ");
@@ -356,7 +356,7 @@ class CaixaEletronico {
     }
 }
 
-class VerificaSenha {
+class Ex37 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Digite uma senha: ");
@@ -378,7 +378,7 @@ class VerificaSenha {
     }
 }
 
-class SequenciaParenteses {
+class Ex38 {
     public static boolean valida(String s) {
         int contador = 0;
         for (char c : s.toCharArray()) {
@@ -403,7 +403,7 @@ class SequenciaParenteses {
     }
 }
 
-class TempoViagem {
+class Ex39 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Distância (km): ");
@@ -421,7 +421,7 @@ class TempoViagem {
     }
 }
 
-class Semaforo {
+class Ex40 {
     enum Cor {VERDE, AMARELO, VERMELHO}
 
     public static void main(String[] args) {
